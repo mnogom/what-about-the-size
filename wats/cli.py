@@ -10,9 +10,6 @@ def parse_args():
                         required=False)
     parser.add_argument("-s", "--style",
                         default="tree")
-    parser.add_argument("-lf", "--limit-from",
-                        default=0,
-                        required=False)
     parser.add_argument("-id", "--ignore-dirs",
                         nargs="*",
                         default=[],
@@ -20,4 +17,4 @@ def parse_args():
     args = parser.parse_args()
     ignore_dirs = [os.path.join(args.path,
                                 ignore_dir) for ignore_dir in args.ignore_dirs]
-    return args.path, args.style, args.limit_from, ignore_dirs
+    return args.path, args.style, ignore_dirs

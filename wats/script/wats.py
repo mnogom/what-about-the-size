@@ -6,7 +6,7 @@ from wats.renders import pick_render
 
 
 def main():
-    path, style, limit_from, ignore_dirs = parse_args()
+    path, style, ignore_dirs = parse_args()
     tree = build_tree(path, ignore_dirs)
     tree = sort_tree(tree)
     render = pick_render(style)
