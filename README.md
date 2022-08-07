@@ -10,16 +10,10 @@ pip3 install --upgrade git+https://github.com/mnogom/what-about-the-size.git
 ---
 ### Usage
 ```commandline
-usage: wats [-h] [-p PATH] [-s STYLE] [-lf LIMIT_FROM] [-id [IGNORE_DIRS ...]]
-
-Get file sizes
-
-optional arguments:
   -h, --help            show this help message and exit
   -p PATH, --path PATH
   -s STYLE, --style STYLE
-  -lf LIMIT_FROM, --limit-from LIMIT_FROM
-  -id [IGNORE_DIRS ...], --ignore-dirs [IGNORE_DIRS ...]
+  -i [IGNORE_DIRS ...], --ignore-dirs [IGNORE_DIRS ...]
 ```
 
 ---

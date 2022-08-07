@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "what-about-the-size"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Konstantin Freidlin <freidlinks@ya.ru>"]
 packages = [

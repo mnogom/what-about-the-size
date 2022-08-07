@@ -10,7 +10,7 @@ def parse_args():
                         required=False)
     parser.add_argument("-s", "--style",
                         default="tree")
-    parser.add_argument("-id", "--ignore-dirs",
+    parser.add_argument("-i", "--ignore-dirs",
                         nargs="*",
                         default=[],
                         required=False)
