@@ -32,4 +32,3 @@ def is_dir(node: tuple):
 
 def file_to_string(file: tuple):
     return get_file_name(file)
-

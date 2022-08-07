@@ -18,5 +18,6 @@ def parse_args():
                         default=[],
                         required=False)
     args = parser.parse_args()
-    ignore_dirs = [os.path.join(args.path, ignore_dir) for ignore_dir in args.ignore_dirs]
+    ignore_dirs = [os.path.join(args.path,
+                                ignore_dir) for ignore_dir in args.ignore_dirs]
     return args.path, args.style, args.limit_from, ignore_dirs
