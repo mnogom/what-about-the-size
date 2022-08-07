@@ -2,17 +2,15 @@
 
 from wats.cli import parse_args
 from wats.builder import build_tree, sort_tree
-from wats.renders.tree_render import render
+from wats.renders import pick_render
 
 
 def main():
-    path, limit_from, ignore_dirs = parse_args()
+    path, style, limit_from, ignore_dirs = parse_args()
     tree = build_tree(path, ignore_dirs)
     tree = sort_tree(tree)
-    print(path)
-    result = render(tree, path)
-
-    print(result)
+    render = pick_render(style)
+    render(tree, path)
 
 
 if __name__ == "__main__":

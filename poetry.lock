@@ -43,10 +43,18 @@ category = "dev"
 optional = false
 python-versions = ">=3.6"
 
+[[package]]
+name = "termcolor"
+version = "1.1.0"
+description = "ANSII Color formatting for output in terminal."
+category = "main"
+optional = false
+python-versions = "*"
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "b37b83a2b202d0abc5fad503d447df1d86ccc507ea2875cb4304a485f8028567"
+content-hash = "fa16082d9e199305660b68da40bd9cfae6ae1e939798607334a49a46f45e6c8b"
 
 [metadata.files]
 argparse = [
@@ -57,3 +65,4 @@ flake8 = []
 mccabe = []
 pycodestyle = []
 pyflakes = []
+termcolor = []
