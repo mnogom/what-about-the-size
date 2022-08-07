@@ -74,7 +74,6 @@ optional arguments:
 #### plain
 ```shell
 # poetry run wats -i .venv .git .idea -s plain
-[ 0.00 ] :: /README.md
 [ 2.07 kB ] :: /wats/__pycache__/builder.cpython-39.pyc
 [ 1.96 kB ] :: /wats/renders/__pycache__/tree_render.cpython-39.pyc
 [ 1.88 kB ] :: /wats/renders/__pycache__/plain.cpython-39.pyc
@@ -97,6 +96,7 @@ optional arguments:
 [ 0.17 kB ] :: /wats/__pycache__/__init__.cpython-39.pyc
 [ 0.1 kB ] :: /.gitignore
 [ 0.08 kB ] :: /Makefile
+[ 0.00 kB ] :: /README.md
 [ 0.0 kB ] :: /wats/script/__init__.py
 [ 0.0 kB ] :: /wats/__init__.py
 ```
