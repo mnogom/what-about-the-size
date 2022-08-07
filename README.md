@@ -65,7 +65,7 @@ pip3 install --upgrade git+https://github.com/mnogom/what-about-the-size.git
 │  • poetry.lock :: [ 1.55 kB ]
 │  • pyproject.toml :: [ 0.52 kB ]
 ```
-#### plain
+#### plain output
 ```shell
 # poetry run wats -i .venv .git .idea -s plain
 [ 2.07 kB ] :: /wats/__pycache__/builder.cpython-39.pyc
